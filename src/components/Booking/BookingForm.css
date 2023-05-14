@@ -1,0 +1,19 @@
+input {
+  width: 50%;
+  margin: 8px;
+  padding: 6px;
+  border-radius: 2px;
+  border: 1px solid seagreen;
+}
+
+.input-btn {
+  background-color: seagreen;
+  color: white;
+  width: 150px;
+  padding: 8px;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 15px;
+}
