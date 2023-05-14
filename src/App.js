@@ -5,6 +5,7 @@ import BookingForm from "./components/Booking/BookingForm";
 import ShowDetails from "./components/ShowDetails/ShowDetails";
 import Shows from "./components/Shows/Shows";
 import AuthProvider from "./context/AuthProvider";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route path="/BookingForm/:id">
               <BookingForm></BookingForm>
+            </Route>
+            <Route exact path="*">
+              <NotFound></NotFound>
             </Route>
           </Switch>
         </BrowserRouter>
